@@ -17,17 +17,16 @@ class Gobelet:
     def des(self):
         return self._des
     
-    @nom.setter
+    @des.setter
     def des(self, des):
         self._des= des   
         
     
         
     def get_valeur(self):
-        
+        return self.valeur
     def lancer(self):
-        
-    return
+        valeur=+1
         
     def afficher_score(self):
         

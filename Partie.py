@@ -4,10 +4,9 @@
 class Partie:
 
 
-    def __init__(self, gobelet):
-        self.joueurs = (1,2)
-        self.nb_tours = 3
-        self.gobelet = gobelet
+   def _init_(self, nb_tour, nbr_des):
+        self.nb_tour = nb_tour
+        self.nbr_des = nbr_des
     
     
     @property

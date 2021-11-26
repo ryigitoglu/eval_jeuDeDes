@@ -19,8 +19,10 @@ class De:
 
     # Renvoie la valeur du dè
     def get_valeur(self):
-        return self.valeur
+        self.nombre = 0
     
     # Change la valeur du dè grace à la méthode randint
     def lancer(self):
-        self.valeur = random.randint(1,6)
+        self.nombre = random.randint(1,6)
+        print (self.nombre)
+        return self.nombre
