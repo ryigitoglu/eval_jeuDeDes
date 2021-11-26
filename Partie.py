@@ -1,4 +1,4 @@
-from Gobelet import Gobelet
+
 
 
 class Partie:
@@ -36,11 +36,12 @@ class Partie:
         self._gobelet=gobelet
     
     
+    # Initilise le nombre de joueurs dans la partie
     def initialiser(self):
         return
-        
+    # Démarre la partie
     def lancer(self):
         return
         
-        
+    # compare les scores des joueurs et affiche le gagnant
     def afficher_gagnant(self):

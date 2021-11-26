@@ -1,5 +1,5 @@
 from Partie import Partie
-
+# Import de la classe Partie pour récuperer l'attribut Gobelet
 class Joueur:
     
     def __init__(self, nom) -> None:
@@ -23,16 +23,17 @@ class Joueur:
     def score(self, score):
         self._score = score
         
-    def get_nom(self):
+        # Renvoie le nom du joueur
+    def get_nom(self): 
         return self.nom
-    
+        # Revoie le score du joueur
     def get_score(self):
         return self.score
-    
+        # Prend en paramètre le gobelet de la classe Partie
     def jouer(self, gobelet):
         return
         
-        
+        # Affiche le score du joueur sur la console
     def afficher_score(self):
         
         print(f"Votre socre est: {self.score}")

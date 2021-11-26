@@ -1,11 +1,12 @@
-from random import randint 
-
+from random import randint
+import random 
+# Importe de la classe random pour la méthode lancer()
 
 class De:
     
     def __init__(self):
         
-        self.valeur = 0
+        self.valeur = random.randint(1,6)
         
     @property
     def valeur(self):
@@ -16,8 +17,10 @@ class De:
         self._valeur = valeur      
     
 
-
-    def get_valeur(self, lancerDe):
+    # Renvoie la valeur du dè
+    def get_valeur(self):
         return self.valeur
     
-    def lancer(self)
+    # Change la valeur du dè grace à la méthode randint
+    def lancer(self):
+        self.valeur = random.randint(1,6)
