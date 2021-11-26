@@ -10,7 +10,7 @@ class Partie:
         self.gobelet = gobelet
     
     
-      @property
+    @property
     def joueurs(self):
         return self._joueurs
     
@@ -19,7 +19,7 @@ class Partie:
         self._joueurs = (1,2)
         
     
-      @property
+    @property
     def nb_tours(self):
         return self._nb_tours
     
@@ -27,7 +27,7 @@ class Partie:
     def nb_tours(self, tours):
         self._nb_tours= tours
         
-      @property
+    @property
     def gobelet(self):
         return self._gobelet
     

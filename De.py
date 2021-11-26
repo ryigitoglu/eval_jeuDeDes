@@ -7,7 +7,13 @@ class De:
         
         self.valeur = 0
         
-        
+    @property
+    def valeur(self):
+        return self._valeur
+    
+    @valeur.setter
+    def valeur(self, valeur):
+        self._valeur = valeur      
     
 
 

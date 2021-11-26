@@ -7,7 +7,7 @@ class Joueur:
         self.score = 0
         
         
-          @property
+    @property
     def nom(self):
         return self._nom
     
@@ -15,12 +15,12 @@ class Joueur:
     def nom(self, nom):
         self._nom=nom
         
-          @property
+    @property
     def score(self):
         return self._score
     
-    @nom.setter
-    def nom(self, score):
+    @score.setter
+    def score(self, score):
         self._score = score
         
     def get_nom(self):
