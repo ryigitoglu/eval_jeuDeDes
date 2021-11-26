@@ -1,6 +1,13 @@
+from De import De
+
+
 class Gobelet:
+    nouveauJeu = De()
+    tableau = [nouveauJeu.lancer(),nouveauJeu.lancer(),nouveauJeu.lancer()]  
+    valeur : 0
+    des : tableau
     
-    def __init__(self, nb_des) -> None:
+    def __init__(self, nb_des):
         
         self.valeur = 0
         self.des = nb_des

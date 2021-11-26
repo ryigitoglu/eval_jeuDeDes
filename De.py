@@ -1,28 +1,30 @@
-from random import randint
-import random 
-# Importe de la classe random pour la méthode lancer()
 
-class De:
-    
-    def __init__(self):
-        
-        self.valeur = random.randint(1,6)
-        
-    @property
-    def valeur(self):
-        return self._valeur
-    
-    @valeur.setter
-    def valeur(self, valeur):
-        self._valeur = valeur      
-    
+from random import *
 
-    # Renvoie la valeur du dè
-    def get_valeur(self):
+
+class de :
+    def _init_(self):
         self.nombre = 0
-    
-    # Change la valeur du dè grace à la méthode randint
+        
     def lancer(self):
-        self.nombre = random.randint(1,6)
+        self.nombre = randint(1,6)
         print (self.nombre)
         return self.nombre
+
+    
+nouveauJeu = de()
+
+
+class gobelet :
+    tableau = [nouveauJeu.lancer(),nouveauJeu.lancer(),nouveauJeu.lancer()]  
+    valeur : 0
+    des : tableau
+    
+    def _init_(self, des, valeur, nbr_des = 0):
+        self.nbr_des = nbr_des
+    def get_valeur(self):
+        return self.valeur
+    def lancer(self):
+        valeur=+1
+    def afficher_score():
+        return
